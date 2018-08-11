@@ -1,0 +1,127 @@
+body{
+  background: #e5f5f5;
+  font-family: Helvetica, sans-serif;
+}
+
+h1{
+  font-weight: 800;
+  font-size: 2.0em;
+  margin-bottom: 10px;
+}
+
+p{
+  font-size: 1.4em;
+}
+
+#navbar{
+  position: fixed;
+  background: lightgray;
+  width: 100%;
+  top: 0;
+}
+
+#navbar ul{
+  text-align: center;
+  padding: 10px;
+}
+
+#navbar li {
+  display: inline;
+  margin: 10px;
+  padding-top: 8px;
+  /*margin-bottom: 15px;*/
+}
+
+#navbar a{
+  font-size: 1.2em;
+  font-weight: 600;
+  padding: 10px;
+}
+
+
+#welcome-section{
+  height: 100vh;
+  text-align: center;
+  margin-bottom: 50px;
+  background-image: url("https://github.com/J-Guidry/images_repo/raw/master/web_images/skyline.jpg");
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-position:center;
+}
+
+#welcome-section h1{
+  padding-top: 100px;
+}
+
+li{
+  list-style-type: none;
+}
+
+#projects-header{
+  text-align: center;
+  margin-bottom: 35px;
+}
+
+#projects{
+  margin: 0 80px;
+  display: grid;
+  grid-template-columns:1fr 1fr 1fr;
+  grid-gap: 5px;
+  margin-bottom: 25px;
+}
+
+@media(max-width: 420px){
+  #projects{
+    grid-template-columns: 1fr;
+  }
+  
+  #navbar li {
+    display: block;
+  }
+  
+  #welcome-section{
+    height: 100vh;
+  }
+  #welcome-section h1{
+    padding-top: 200px;
+  }
+
+}
+
+
+.project-title{
+  padding: 15px 0;
+  border-bottom: 1px solid black;
+  font-size: 1.1em;
+  font-weight: 600;
+}
+
+.project-tile{
+  border: 1px solid black;
+  border-radius: 15px;
+}
+
+.project-tile img{
+  width: 100%;
+}
+
+h5{
+  text-align: center;
+}
+
+a{
+  text-decoration:none;
+  color: black; 
+}
+
+#contact-header{
+  margin-left: 25px;
+  margin-top: 100px;
+}
+
+#contact{
+  margin: 25px 0;
+  display: flex;
+  justify-content: space-around;
+  font-size: 1.2em;
+}
