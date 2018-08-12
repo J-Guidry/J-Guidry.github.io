@@ -1,2 +1,2 @@
 # J-Guidry.github.io
-Portfolio
+My Portfolio of works and where you can contact me.
