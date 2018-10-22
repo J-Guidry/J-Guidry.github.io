@@ -3,7 +3,7 @@
     margin-top: 100px;
   }
   
-  #contact{
+  #contact-places{
     margin: 25px 0;
     display: flex;
     justify-content: space-around;
@@ -13,3 +13,37 @@
   #contact-header p{
     font-size: 1.4em;
   }
+
+  #contact-me{
+    width: 250px;
+    margin: 0 auto;
+    background: lightgrey;
+    padding: 30px;
+    font-size: 1.2rem;
+  }
+
+  form input {
+    margin-left: 10px;
+  }
+
+  input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+input[type=email] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+
+#submit{
+  width: 70%;
+  background: #e5f5f5;
+  margin-top: 10px;
+  font-size: 1.2rem;
+  padding: 5px;
+}

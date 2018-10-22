@@ -24,7 +24,7 @@
     <section id="welcome-section">
       <h1>Hello</h1>
       <p>I am Jhabari Guidry, a self-taught Front-End Web Developer</p>
-      <p>I like to build web apps</p>
+      <p>I like to build web apps and transition designs to code</p>
     </section>
     
     
@@ -50,7 +50,7 @@
         <img src="https://github.com/J-Guidry/images_repo/raw/master/web_images/todolist.png" alt="todolist screenshot">
         <div class="project-info">
           <p>Uses: HTML, CSS, JS</p>
-          <p><a href="https://github.com/J-Guidry/todolist" target="_blank"></a></p>
+          <p><a href="https://github.com/J-Guidry/todolist" target="_blank">Github</a></p>
           <p><a href="https://codepen.io/Adinseed/full/MBYzxE/" target="_blank">Live</a></p>
         </div>
       </div>
@@ -62,6 +62,7 @@
          <div class="project-info">
            <p>Uses: HTML, CSS, JS, Jquery, Bootstrap</p>
            <p><a href="https://github.com/J-Guidry/simplegtd" target="_blank">Github</a></p>
+           <p><a href="https://simplegtd.netlify.com/" target="_blank">Live</a></p>
         </div>
       </div>
 
@@ -110,29 +111,9 @@
       </div>
     </section>
 
-    <header class="projects-header">
-      <h2>Mock Pages</h2>
-      <p>These are mock pages coded from a design or inspired by a design</p>
-    </header>
-    <section class="projects">
-    <div id="survey" class="project-tile">
-      <a href="https://codepen.io/Adinseed/full/bjbKgy/" target="_blank">
-        <h5 class="project-title">Mock Survey Page</h5>
-        <img src="https://github.com/J-Guidry/images_repo/raw/master/web_images/survey.png" alt="survey page screenshot">
-      </a>
-    </div>
-    
-    <div id="product" class="project-tile">
-      <a href="https://codepen.io/Adinseed/full/QBLoyG/" target="_blank">
-        <h5 class="project-title">Mock Product Landing Page</h5>
-        <img src="https://github.com/J-Guidry/images_repo/raw/master/web_images/product_landing.png" alt="product landing page screenshot">
-      </a>
-    </div>
-  </section>
-
 
     <header id="contact-header"><p>You can find me here:</p></header>
-    <section id="contact">
+    <section id="contact-places">
       <div id="github">
         <a class="fa fa-github" 
            href="https://github.com/J-Guidry"
@@ -148,6 +129,26 @@
            >Free Code Camp
         </a>
       </div>
+    </section>
+
+    <section id="contact-me">
+      <h3>Leave a Message</h3>
+      <form netlify name="contact" method="POST">
+        <p>
+          <label for="name">Name:</label> <input type="text" name="name" id="name" required placeholder="name">
+        </p>
+        <p>
+          <label for="email">Email:</label><input type="email" name="email" id="email" required placeholder="email">
+        </p>
+        <p>
+          <label for="subject">Subject:</label><input type="text" name="subject" id="subject" required placeholder="subject">
+        </p>
+        <p>
+          <label for="message">Your Message:</label>
+        </p>
+        <textarea name="message" id="message" cols="30" rows="10" required></textarea>
+        <button type="submit" id="submit">Send</button>
+      </form>
     </section>
   </main>
    
