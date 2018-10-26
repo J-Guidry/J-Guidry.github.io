@@ -1,0 +1,57 @@
+body{
+    background: #101211;
+  }
+  
+  h1 + a {
+    color: cyan;
+  }
+  h1{
+    padding: 1%;
+      margin: 1% auto;
+    color: #E6F2EC;
+  }
+  
+  a{
+    display: block;
+  }
+  input {
+    margin: auto;
+    position: relative;
+    margin-top: 25px;
+    margin-right: 5px;
+    border-radius: 20px;
+    border: solid #d2f2a2 4px;
+    padding: 5px 0 5px 10px;
+  }
+  
+  button{
+    display: inline;
+    border-radius: 20px;
+    background: #d2f2a2;
+    border: none;
+    padding: 7px;
+  }
+  
+  #output li {
+    text-align: left;
+    list-style-type: none;
+    margin-bottom: 15px;
+    background: #d2f2a2;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    padding: 20px;
+  }
+  
+  li a {
+    color: blue;
+    margin-bottom: 10px;
+  }
+  
+  #output{
+      padding: 2%;
+      margin: 0 auto;
+      width: 90%;
+      border-radius: 10px;
+      margin-top: 20px;
+  }
+  

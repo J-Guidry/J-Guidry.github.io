@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!--font awesome -->
+    <link rel="stylesheet" href="../font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../styles/styles.css">
+    <link rel="stylesheet" href="../styles/writeups.css">
+    <title>Portfolio</title>
+</head>
+<body>
+  <header id="navbar">
+      <nav>
+        <ul>
+          <li><a href="../index.html#welcome-section">About</a></li>
+          <li><a href="../index.html##projects">Projects</a></li>
+          <li><a href="../index.html##contact">Contact</a></li>
+        </ul>
+      </nav>
+  </header>
+  <main>
+<header class="writeup-header">
+    <h2>Writeup</h2>
+</header>
+   <section class="writeup">
+    <p>With the calculator, I first started with implementing a console version of it.
+        Using an object literal, 5 methods were made and four properties. Two methods for assigning a number and the next number. 
+        One method for assigning the operator. One method for performing the operation and a last one for clearing the data. 
+        The first two properties held the number and the next number. The third for the operator. The last one for the result of the calculation.
+    </p>
+    <p>When it came to implementing the rest with the UI,there were two object literals created. 
+            One of them concerned the UI with display and outputing the result as well as clearing the display. 
+            This uses the textContent property drilling down using the read only children property to access the display to either clear or populate it.
+            The other one has event listeners and called methods from the first object literal containing the data and operations and sends data to the UI methods.
+            Using an if else chain, chain operations were implemented. A switch statement is used to support keyboard inputs and not just button clicks.</p>
+    <p>
+        When implementing CSS, CSS grid was used in setting up the rows and columns for the calculator's buttons. A responsive container is used to resize the
+        calculator as needed.
+    </p>
+    <p>
+        To implement operations, an if else chain is used which checks the operator and both number properties. Once the operation is done, the result is assigned to a property which is used
+        by the UI in the other object literals. Frustrations included trying to get chain operations to work and making sure the display worked correctly. 
+        
+    </p>
+
+   </section>
+</main>
+</body>
+
+</html>

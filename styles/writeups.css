@@ -1,0 +1,50 @@
+.writeup{
+    width: 80%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    border: lightblue ridge 1px;
+    background: lightblue;
+    padding-bottom: 15px;
+    border-radius: 25px;
+    font-size: 1.3rem;
+    /* margin-top: 150px; */
+}
+
+.writeup-header{
+    text-align: center;
+    margin-top: 150px;
+}
+  
+  @media (min-width: 576px) {
+    .writeup {
+      max-width: 540px;
+      border-radius: 25px;
+      /* margin-top: 150px; */
+    }
+  }
+  
+  @media (min-width: 768px) {
+    .writeup {
+      max-width: 720px;
+      border-radius: 25px;
+      /* margin-top: 150px; */
+    }
+  }
+  
+  @media (min-width: 992px) {
+    .writeup {
+      max-width: 960px;
+      border-radius: 25px;
+      /* margin-top: 150px; */
+    }
+  }
+  
+  @media (min-width: 1200px) {
+    .writeup {
+      max-width: 1140px;
+      border-radius: 25px;
+      /* margin-top: 150px; */
+    }
+  }
