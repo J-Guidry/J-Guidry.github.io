@@ -1,6 +1,17 @@
+* {
+  box-sizing: border-box;
+ }
+
 body{
   background: #e5f5f5;
   font-family: Helvetica, sans-serif;
+  position: relative;
+  margin: 0;
+  height: 100%;
+}
+
+main{
+  min-height: 70vh;
 }
 
 li{

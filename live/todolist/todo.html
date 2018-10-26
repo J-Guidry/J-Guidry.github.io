@@ -3,9 +3,24 @@
 <head>
 	<title>Todo</title>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link rel="stylesheet" href="todo.css">
+  <link rel="stylesheet" href="../../styles/base.css">
+  <link rel="stylesheet" href="../../styles/navbar.css">
+  <link rel="stylesheet" href="../../styles/footer.css">
+  <link rel="stylesheet" href="./todo.css">
+
+
 </head>
 <body>
+    <header id="navbar">
+        <nav>
+            <ul>
+            <li><a href="../../index.html#welcome-section">About</a></li>
+            <li><a href="../../index.html#projects">Projects</a></li>
+            <li><a href="../../index.html#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+<main>
   <div class="container">      
     <div class="box">
       <h2>Todo List</h2>
@@ -18,10 +33,33 @@
         <input type="text" id="addTodoTextInput" maxlength="26">
       </div>
     
-      <ul>
+      <ul id="todolist">
       </ul>
     </div>
   </div>
+</main>
+  <footer>
+      <section id="contact-places">
+          <div id="github">
+            <a class="fa fa-github" 
+               href="https://github.com/J-Guidry"
+               id="profile-link"
+               target="_blank" 
+               aria-hidden="true"        
+               >Github
+            </a>
+          </div>
+    
+          <div id="linkedin">
+              <a class="fa fa-linkedin"  
+                 href="https://www.linkedin.com/in/jhabari-guidry-625775173/"
+                 target="_blank"
+                 aria-hidden="true"
+                 >LinkedIn
+              </a>
+            </div>
+          </section>
+        </footer>
     <script src="script.js"></script>
 </body>
 </html>

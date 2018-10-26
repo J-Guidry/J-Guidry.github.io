@@ -4,12 +4,6 @@
     font-size: 1.2rem;
   }
   
-  #contact-places{
-    margin: 25px 0;
-    display: flex;
-    justify-content: space-around;
-    font-size: 1.2em;
-  }
 
   #contact-header p{
     font-size: 1.4em;
@@ -18,6 +12,7 @@
   #contact-me{
     width: 250px;
     margin: 0 auto;
+    margin-bottom: 150px;
     background: lightgrey;
     padding: 25px;
     font-size: 1.2rem;
@@ -53,3 +48,27 @@ input[type=email] {
   visibility: hidden;
   display: none;
 }
+
+footer{
+  position: absolute;
+  background: #333;
+  height: auto;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 1rem;
+}
+
+#contact-places{
+  margin: 25px 0;
+  display: flex;
+  justify-content: space-around;
+  font-size: 1.2em;
+  color: lightgrey;
+}
+
+#contact-places a:visited{
+  color: lightgrey;
+}
+

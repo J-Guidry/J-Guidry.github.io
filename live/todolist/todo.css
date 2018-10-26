@@ -1,19 +1,31 @@
 html {
 	box-sizing: border-box;
 	background: #EDF7FA;
-	font-size: 20px;
 }
 
+@media (max-device-width: 700px){
+	.container {
+		font-size: 1.3rem;
+	}
+	.box{
+		width: 80%;
+	}
+}
 
+body{
+	background: #EDF7FA;
+}
 .container{
 	max-width: 90%;
 	line-height: 1.8;
 	width: 30rem;
 	height: 30rem;
 	margin: 70px auto;
+	margin-bottom: 100px;
 }
 
 .box{
+	height: auto;
 	padding-bottom: 3%;
 	padding-left: 5%;
 	padding-right: 5%;
@@ -22,20 +34,26 @@ html {
 	-webkit-box-shadow: 15px 31px 67px -9px rgba(0,0,0,0.37);
 	-moz-box-shadow: 15px 31px 67px -9px rgba(0,0,0,0.37);
 	box-shadow: 15px 31px 67px -9px rgba(0,0,0,0.37);
-	width: 60%;
+	width: 70%;
+	margin: 0 auto;
+	margin-top: 200px;
 }
 
-h2{
+.box {
+	/* padding: 3px; */
+}
+
+.box h2{
 	position: relative;
 	top: 18px;
 }
 
-li{
+.box li{
 	list-style: none;
 }
 
 
-button{
+.box button{
 	background-color: #52A8FF; 
     border: none;
     color: white;
@@ -47,7 +65,7 @@ button{
 	margin-right: 10px;
 }
 
-input{
+.box input{
 	width: 170px;
 	height: 20px;
 	border-radius: 12px;
@@ -76,3 +94,4 @@ input{
 	color: gray;
 	text-decoration: line-through;
 }
+

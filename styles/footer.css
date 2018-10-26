@@ -1,0 +1,22 @@
+footer{
+    position: absolute;
+    background: #333;
+    height: auto;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 1rem;
+  }
+  
+  #contact-places{
+    margin: 25px 0;
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.2em;
+    color: lightgrey;
+  }
+  
+  #contact-places a:visited{
+    color: lightgrey;
+  }

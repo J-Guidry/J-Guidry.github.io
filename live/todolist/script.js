@@ -65,7 +65,7 @@ var todoList = {
   
 var view = {
   displayTodos: function(){ //render
-    var todosUl = document.querySelector("ul");
+    var todosUl = document.querySelector("#todolist");
     todosUl.innerHTML = "";
     var toggleIcon = "<i class='fa fa-circle-o fa-lg'></i>";
     var completedIcon = "<i class='fa fa-check-circle-o fa-lg'></i>";
@@ -100,7 +100,7 @@ var view = {
     return deleteIcon;
   },
   addTodo: function(value){
-    var todosUl = document.querySelector("ul");
+    var todosUl = document.querySelector("#todolist");
     var toggleIcon = "<i class='fa fa-circle-o fa-lg'></i>";
     var todoLi = document.createElement("li");
     var todoTextWithCompletion = "";
@@ -158,7 +158,7 @@ var view = {
 
 var controller = {
   setEventListeners: function(){
-    var todosUl = document.querySelector("ul");
+    var todosUl = document.querySelector("#todolist");
     var addTodo = document.querySelector("#addTodoTextInput");
     var checked = "fa fa-check-circle-o fa-lg";
     var unchecked = "fa fa-circle-o fa-lg";
@@ -229,7 +229,7 @@ var controller = {
     var checked = "fa fa-check-circle-o fa-lg";
     var unchecked = "fa fa-circle-o fa-lg";
     todoList.toggleAll();
-    var todosUl = document.querySelector("ul");
+    var todosUl = document.querySelector("#todolist");
     view.toggleAll(todosUl.childNodes, checked, unchecked);
   },
   init: function(){
