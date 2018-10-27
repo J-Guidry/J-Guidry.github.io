@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./styles/styles.css">
+    <link rel="stylesheet" href="./styles/footer.css">
+    <title>Portfolio</title>
+</head>
+<body>
+    <header id="navbar">
+        <nav>
+            <ul>
+            <li><a href="./index.html">About</a></li>
+            <li><a href="./projects.html">Projects</a></li>
+            <li><a href="./contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+    <header id="contact-header"><p>Feel free to contact me</p></header>
+        <section id="contact-me">
+        <h3>Leave a Message</h3>
+        <form netlify name="contact" method="POST">
+            <p>
+            <label for="name">Name:</label> <input type="text" name="name" id="name" required placeholder="name">
+            </p>
+            <p class="hidden">
+                <label>Don’t fill this out if you're human: <input name="bot-field" /></label>
+            </p>
+            <p>
+            <label for="email">Email:</label><input type="email" name="email" id="email" required placeholder="email">
+            </p>
+            <p>
+            <label for="subject">Subject:</label><input type="text" name="subject" id="subject" required placeholder="subject">
+            </p>
+            <p>
+            <label for="message">Your Message:</label>
+            </p>
+            <textarea name="message" id="message" cols="25" rows="10" required></textarea>
+            <button type="submit" id="submit">Send</button>
+        </form>
+        </section>
+    </main>
+    <footer>
+            <section id="contact-places">
+                <div id="github">
+                <a class="fa fa-github" 
+                    href="https://github.com/J-Guidry"
+                    id="profile-link"
+                    target="_blank" 
+                    aria-hidden="true"        
+                    >Github
+                </a>
+                </div>
+        
+                <div id="linkedin">
+                    <a class="fa fa-linkedin"  
+                    href="https://www.linkedin.com/in/jhabari-guidry-625775173/"
+                    target="_blank"
+                    aria-hidden="true"
+                    >LinkedIn
+                    </a>
+                </div>
+            </section>
+    </footer>
+</body>
+</html>

@@ -3,26 +3,12 @@ html {
 	background: #EDF7FA;
 }
 
-@media (max-device-width: 700px){
-	.container {
-		font-size: 1.3rem;
-	}
-	.box{
-		width: 80%;
+@media(max-device-width: 900px){
+	body{
+		background: #EDF7FA;
 	}
 }
 
-body{
-	background: #EDF7FA;
-}
-.container{
-	max-width: 90%;
-	line-height: 1.8;
-	width: 30rem;
-	height: 30rem;
-	margin: 70px auto;
-	margin-bottom: 100px;
-}
 
 .box{
 	height: auto;
@@ -30,22 +16,23 @@ body{
 	padding-left: 5%;
 	padding-right: 5%;
 	background: lightgray;
-	border-radius: 10%;
+	border-radius: 20px;
 	-webkit-box-shadow: 15px 31px 67px -9px rgba(0,0,0,0.37);
 	-moz-box-shadow: 15px 31px 67px -9px rgba(0,0,0,0.37);
 	box-shadow: 15px 31px 67px -9px rgba(0,0,0,0.37);
-	width: 70%;
 	margin: 0 auto;
 	margin-top: 200px;
+	font-size: 3vw;
 }
 
 .box {
-	/* padding: 3px; */
+	margin-bottom: 150px;
 }
 
-.box h2{
-	position: relative;
-	top: 18px;
+.box h1{
+	margin: 10px;
+	padding-top: 15px;
+	font-weight: bold;
 }
 
 .box li{
@@ -58,16 +45,18 @@ body{
     border: none;
     color: white;
     padding: 5px 10px;
-    text-align: center;
+	text-align: center;
+	font-size: 1.5rem;
     text-decoration: none;
     display: inline-block;
     border-radius: 12px;
 	margin-right: 10px;
+	margin-bottom: 5px;
 }
 
 .box input{
 	width: 170px;
-	height: 20px;
+	height: 35px;
 	border-radius: 12px;
 	background: #EDF7FA;
 	margin-right: 5px;
@@ -78,7 +67,7 @@ body{
 	color: darkred;
 	margin-left: 10%;
 	cursor: pointer;
-  margin-top: 10px;
+ 	 margin-top: 5px;
 }
 
 .fa-check-circle-o {

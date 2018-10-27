@@ -6,20 +6,20 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="./styles/styles.css">
+    <link rel="stylesheet" href="./styles/footer.css">
     <title>Portfolio</title>
 </head>
 <body>
   <header id="navbar">
       <nav>
         <ul>
-          <li><a href="#welcome-section">About</a></li>
-          <li><a href="#projects">Projects</a></li>
-          <li><a href="#contact-me">Contact</a></li>
+          <li><a href="./index.html">About</a></li>
+          <li><a href="./projects.html">Projects</a></li>
+          <li><a href="./contact.html">Contact</a></li>
         </ul>
       </nav>
   </header>
   <main>
-
     <section id="welcome-section">
       <h1>Hello</h1>
       <p>I am Jhabari Guidry, Front-End Web Developer</p>
@@ -32,126 +32,8 @@
       </section>
 
     </section>
-    <header class="projects-header">
-      <h1>Here Are My Projects</h1>
-      <h2>Web Apps</h2>
-    </header>
-
-    <section class="projects" id="projects">
-      <div id="calculator" class="project-tile">
-        <h5 class="project-title">Calculator</h5>
-        <img src="https://github.com/J-Guidry/images_repo/raw/master/web_images/calculator.png" alt="calculator screenshot">
-        <div class="project-info">
-          <p>A four function calculator</p>
-          <p>Uses: HTML, CSS, JS</p>
-          <p><a href="https://github.com/J-Guidry/calculator/" target="_blank">Github</a></p>
-          <p><a href="./live/calculator/index.html" target="_blank">Live</a></p>
-          <p><a href="./writeups/calculator.html" target="_blank">Writeup</a></p>
-        </div>
-      </div>
-
-      
-      <div id="todolist" class="project-tile">
-        <h5 class="project-title">Todolist</h5>
-        <img src="https://github.com/J-Guidry/images_repo/raw/master/web_images/todolist.png" alt="todolist screenshot">
-        <div class="project-info">
-          <p>A simple todo list</p>
-          <p>Uses: HTML, CSS, JS</p>
-          <p><a href="https://github.com/J-Guidry/todolist" target="_blank">Github</a></p>
-          <p><a href="./live/todolist/todo.html" target="_blank">Live</a></p>
-          <p><a href="./writeups/todolist.html" target="_blank">Writeup</a></p>
-        </div>
-      </div>
-
-
-      <div class="project-tile">
-         <h5 class="project-title">Simple Productiviy App</h5>
-         <img src="https://github.com/J-Guidry/images_repo/raw/master/web_images/productivity.png" alt="productibity app screenshot">
-         <div class="project-info">
-           <p>A productivity app to organize your tasks</p>
-           <p>Uses: HTML, CSS, JS, Jquery, Bootstrap</p>
-           <p><a href="https://github.com/J-Guidry/simplegtd" target="_blank">Github</a></p>
-           <p><a href="https://simplegtd.netlify.com/" target="_blank">Live</a></p>
-           <p><a href="./writeups/gtd.html" target="_blank">Writeup</a></p>
-        </div>
-      </div>
-
-
-      <div class="project-tile">
-          <h5 class="project-title">Quickpoll</h5>
-          <img src="https://github.com/J-Guidry/quickpoll/raw/master/quickpoll_main.png" alt="quickpoll screenshot">
-          <div class="project-info">
-            <p>A polling app inspired by strawpoll </p>
-            <p>Uses: HTML, CSS, JS, PHP Laravel, PostgreSQL</p>
-            <p><a href="https://github.com/J-Guidry/quickpoll" target="_blank">Github</a></p>
-            <p><a href="https://quickpoll-39797.herokuapp.com/" target="_blank">Live</a></p>
-            <p><a href="./writeups/quickpoll.html" target="_blank">Writeup</a></p>
-          </div>
-      </div>
-
-
-      <div class="project-tile">
-        <h5 class="project-title">Recipe Box</h5>
-        <img src="https://github.com/J-Guidry/images_repo/raw/master/web_images/recipe-box.png" alt="recipe box screenshot">
-        <div class="project-info">
-          <p>A place to store your recipes</p>
-          <p>Uses: HTML, CSS, JS, React.js</p>
-          <p><a href="https://github.com/J-Guidry/simple-recipe-box/" target="_blank">Github</a></p>
-          <p><a href="https://simple-recipe-box.netlify.com/" target="_blank">Live</a></p>
-        </div>
-      </div>
-
-      
-      <div class="project-tile">
-        <h5 class="project-title">Simon Game</h5>
-        <img src="https://github.com/J-Guidry/images_repo/raw/master/web_images/simon.png" alt="simon game screenshot">
-        <div class="project-info">
-          <p>Match the colors in sequence</p>
-          <p>Uses: HTML, CSS, JS, React.js</p>
-          <p><a href="https://github.com/J-Guidry/simon-game/" target="_blank">Github</a></p>
-          <p><a href="https://simon-game-6fd.netlify.com/" target="_blank">Live</a></p>
-        </div>
-      </div>
-
-      <div class="project-tile">
-        <h5 class="project-title">Wikipedia Viewer</h5>
-        <img src="https://github.com/J-Guidry/images_repo/raw/master/web_images/viewer.png" alt="Wikipedia Viewer screenshot">
-        <div class="project-info">
-          <p>Uses API to get Wikipedia articles</p>
-          <p>Uses: HTML, CSS, JS, Bootstrap</p>
-          <p><a href="./live/viewer/viewer.html" target="_blank">Live</a></p>
-        </div>
-      </div>
-    </section>
-
-
-    <header id="contact-header"><p>Feel free to contact me</p></header>
-
-
-    <section id="contact-me">
-      <h3>Leave a Message</h3>
-      <form netlify name="contact" method="POST">
-        <p>
-          <label for="name">Name:</label> <input type="text" name="name" id="name" required placeholder="name">
-        </p>
-        <p class="hidden">
-            <label>Don’t fill this out if you're human: <input name="bot-field" /></label>
-          </p>
-        <p>
-          <label for="email">Email:</label><input type="email" name="email" id="email" required placeholder="email">
-        </p>
-        <p>
-          <label for="subject">Subject:</label><input type="text" name="subject" id="subject" required placeholder="subject">
-        </p>
-        <p>
-          <label for="message">Your Message:</label>
-        </p>
-        <textarea name="message" id="message" cols="25" rows="10" required></textarea>
-        <button type="submit" id="submit">Send</button>
-      </form>
-    </section>
-  </main>
-   
+  
+   </main>
   <footer>
       <section id="contact-places">
           <div id="github">
