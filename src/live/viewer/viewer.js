@@ -33,6 +33,7 @@ function results(data){
         item.appendChild(anchor);
         anchor.href = data[3][i];
         anchor.textContent = data[1][i];
+        anchor.target = "_blank";
         paragraph.textContent = data[2][i];
         item.appendChild(paragraph);
         child.appendChild(item);
