@@ -1,12 +1,30 @@
-html {
-	box-sizing: border-box;
-	background: #EDF7FA;
+@import "font-awesome/css/font-awesome.min.css";
+@import "bootstrap/dist/css/bootstrap.min.css";
+
+@media(max-width: 650px){
+	.box h1{
+		font-size: 2.0rem;	
+	}
+
+	.box li{
+		font-size: 1.4rem;
+	}
+
+	.box div button{
+		font-size: 1.0rem;
+	}
+
+	.box input{
+		width: 180px;
+	}
 }
 
-@media(max-device-width: 900px){
-	body{
-		background: #EDF7FA;
-	}
+html {
+	box-sizing: border-box;
+}
+
+body{
+	background-color: #e5f5f5;
 }
 
 
@@ -22,7 +40,7 @@ html {
 	box-shadow: 15px 31px 67px -9px rgba(0,0,0,0.37);
 	margin: 0 auto;
 	margin-top: 200px;
-	font-size: 3vw;
+	font-size: 2.7vw;
 }
 
 .box {
@@ -33,6 +51,7 @@ html {
 	margin: 10px;
 	padding-top: 15px;
 	font-weight: bold;
+	font-size: 2.8rem;
 }
 
 .box li{
@@ -55,12 +74,17 @@ html {
 }
 
 .box input{
-	width: 170px;
+	width: 220px;
 	height: 35px;
 	border-radius: 12px;
 	background: #EDF7FA;
 	margin-right: 5px;
+	font-size: 1.3rem;
 }
+
+/* .box input[text]{
+	font-size: 1.3rem;
+} */
 
 .fa-times {
 	float: right;
