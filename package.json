@@ -4,7 +4,8 @@
   "description": "My Portfolio of works and where you can contact me.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "parcel ./src/index.html",
+    "build": "parcel build ./src/index.html"
   },
   "repository": {
     "type": "git",
@@ -16,5 +17,11 @@
   "bugs": {
     "url": "https://github.com/J-Guidry/J-Guidry.github.io/issues"
   },
-  "homepage": "https://github.com/J-Guidry/J-Guidry.github.io#readme"
+  "homepage": "https://github.com/J-Guidry/J-Guidry.github.io#readme",
+  "devDependencies": {
+    "parcel-bundler": "^1.10.3"
+  },
+  "dependencies": {
+    "font-awesome": "^4.7.0"
+  }
 }
