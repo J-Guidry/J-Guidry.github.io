@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../styles/styles.css">
+    <link rel="stylesheet" href="../styles/writeups.css">
+    <title>Portfolio</title>
+    <style>
+        .writeup{
+            margin-bottom: 160px;
+        }
+    </style>
+</head>
+<body>
+  <header id="navbar">
+      <nav>
+        <ul>
+          <li><a href="../index.html">About</a></li>
+          <li><a href="../projects.html">Projects</a></li>
+          <li><a href="../contact.html">Contact</a></li>
+        </ul>
+      </nav>
+  </header>
+  <main>
+<header class="writeup-header">
+    <h2>Writeup</h2>
+</header>
+   <section class="writeup">
+    <p>The recipe box is done with the React JavaScript library. It can be used to store recipes. 
+        One box holds the recipe name, the second holds the recipe ingredients, and the last holds the recipe instructions.
+        This uses the localstorage API to persist data in your browser so it is not lost. Since this is a react app, it uses Webpack for bundling and Babel for transpilation</p>
+    <p>There are different prperties it needs to keep track of: The recipes themselves, the recipe, name, ingredients and instructions used store keystrokes when need, 
+        a label which is used in the modal, two booleans, one for editting, and the other for the modal, and finally, a details array that will be sent to the display.
+        There are methods for adding, editing, deleting, and saving recipes. A lifecycle method is used for saving. It also uses the React modal library.
+    </p>
+    <p>Starting from the create recipe button this is the logic</p>
+    <ul>
+        <li>1. It will check the text content of the button. If it is "create"</li>
+        <li>2. State is set where the label is set to create and the three: name, ingredients and instructions are set to empty strings in case they are full</li>
+        <li>3. If the label is edit, it will populate the three proeprties with what is stored in the details array</li>
+        <li>4. The modal is opened and it has a form for the name, ingredients and instructions. 
+            There is an instruction to separate each new ingredient and/instruction with a newline</li>
+        <li>5. Upon submission, preventDefault is called to prevent page refresh</li>
+        <li>6. the contens of the ingredients and instructions has the split method called using
+            regular expression to separate content for each item in the two arrays.
+        </li>
+        <li>7. An id is generated.</li>
+        <li>8. State is set for the recipes array using the id, the name, and both arrays</li>
+    </ul>
+    <p>For the first box that is the recipe list, it uses the recipes array and the map method to loop through and display each name and uses id for the keys.
+        There is a function passed into the recipe list to handle clicking. 
+    </p>
+    <p>When is recipe from the list is clicked on</p>
+    <ul>
+        <li>1. It will take the id of the recipe</li>
+        <li>2. It will use findIndex method on the recipes array using the id</li>
+        <li>3. It will find the instructions, ingredients and name of the recipe using the index on the same array</li>
+        <li>4. State is set for the details array with the above information.</li>
+    </ul>
+    <p>Since the details array has been filled, it will display the data in the ingredients and instructions boxes using the map method.
+        It uses a ternary operator to make sure there is data at all. The delete and edit buttons are also dispalyed here which also uses a ternary to check for data existence.
+    </p>
+   </section>
+</main>
+<footer>
+        <section id="contact-places">
+            <div id="github">
+              <a class="fa fa-github" 
+                 href="https://github.com/J-Guidry"
+                 id="profile-link"
+                 target="_blank" 
+                 aria-hidden="true"        
+                 >Github
+              </a>
+            </div>
+      
+            <div id="linkedin">
+                <a class="fa fa-linkedin"  
+                   href="https://www.linkedin.com/in/jhabari-guidry-625775173/"
+                   target="_blank"
+                   aria-hidden="true"
+                   >LinkedIn
+                </a>
+              </div>
+          </section>
+    </footer>
+</body>
+
+</html>

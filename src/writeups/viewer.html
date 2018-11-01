@@ -23,22 +23,10 @@
     <h2>Writeup</h2>
 </header>
    <section class="writeup">
-    <p>
-        Inspired by strawpoll.me, it lets you create polls, vote on them and share them.
-        This does not use authentication as it is not a serious poll site. There is also a search function.
-    </p>
-    <p>
-        The quickpoll is the first full stack app I did on my own. At first, I did most of it with regular PHP,
-        but later switched to Laravel to better understand how MVC frameworks operate and the kind of measures they use 
-        for security and validation. Using PostgreSQL as the database, I designed database tables for the polls, and poll options.
-        I made use of seed and migrattion files as well as the chart.js library on the frontend. I set up routes, controllers, and an env file.
-        I learned of csrf tokens and did validation and sanitization of incoming data. 
-        I also learned the blade template engine. 
-    </p>
-    <p>I had problems trying to get AJAX to work with either the axios library or with the Fetch API. 
-        In the end, I used jquery's ajax implementation. It also took me quite some time to learn the particulars of the chart.js library.
-        There was much documentation to read through for each aspect of the app. Designing database tables, using Eloquent ORM, properly importing and using chart.js, etc.
-    </p>
+        <p>This is a simple search bar that uses Wikipedia's API to display the results.
+            This uses the Fetch API to access Wikipedia, pull data from it, and then construct HTML which is displayed.
+        </p>
+        <p>Style wise, it uses a green color on a dark background for a nice contrast. The search bar and search button are rounded for aesthetic purposes as are the search results.</p>
    </section>
 </main>
 <footer>

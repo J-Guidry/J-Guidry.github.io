@@ -1,12 +1,11 @@
 .writeup{
     width: 80%;
-    padding-right: 15px;
-    padding-left: 15px;
+    padding: 20px;
     margin-right: auto;
     margin-left: auto;
     border: lightblue ridge 1px;
     background: lightblue;
-    padding-bottom: 15px;
+    /* padding-bottom: 15px; */
     border-radius: 25px;
     font-size: 1.3rem;
     /* margin-top: 150px; */
@@ -17,6 +16,9 @@
     margin-top: 150px;
 }
   
+li{
+  margin-bottom: 10px;
+}
   @media (min-width: 576px) {
     .writeup {
       max-width: 540px;
