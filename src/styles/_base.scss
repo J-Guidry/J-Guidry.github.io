@@ -19,10 +19,6 @@ html {
   position: relative;
 }
 
-/* main{
-  min-height: 90vh;
-} */
-
 li{
   list-style-type: none;
 }
@@ -36,3 +32,6 @@ li a{
   color: black; 
 }
 
+ul {
+  padding-left: 0;
+}

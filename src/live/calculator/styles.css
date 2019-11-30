@@ -15,10 +15,11 @@
     max-width: 45%;
     padding-right: 15px;
     padding-left: 15px;
+    padding-top: 2px;
     margin-right: auto;
     margin-left: auto;
     margin-top: 100px;
-    border: lightblue ridge 1px;
+    border: none;
     background: lightblue;
     padding-bottom: 15px;
     border-radius: 25px;
@@ -77,6 +78,7 @@ button{
     font-size: 1.5rem;
     padding: 10px;
     border-radius: 15px;
+    border: none;
 }
 
 h1{
