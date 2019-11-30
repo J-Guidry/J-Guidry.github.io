@@ -1,3 +1,7 @@
+.main-contact {
+  min-height: 100vh;
+}
+
 #contact-header{
     text-align: center;
     margin-top: 100px;
@@ -12,7 +16,7 @@
   #contact-me{
     width: 250px;
     margin: 0 auto;
-    margin-bottom: 150px;
+    padding-bottom: 150px;
     background: lightgrey;
     padding: 25px;
     font-size: 1.2rem;
@@ -49,19 +53,9 @@ input[type=email] {
   display: none;
 }
 
-footer{
-  position: absolute;
-  background: #333;
-  height: auto;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  padding: 1rem;
-}
 
 #contact-places{
-  margin: 25px 0;
+  padding: 25px 0;
   display: flex;
   justify-content: space-around;
   font-size: 1.2em;

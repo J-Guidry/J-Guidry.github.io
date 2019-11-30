@@ -1,16 +1,16 @@
 footer{
     position: absolute;
     background: #333;
-    height: auto;
-    right: 0;
+    /* height: auto; */
+    /* right: 0; */
     bottom: 0;
-    left: 0;
+    /* left: 0; */
     width: 100%;
     /* padding: 1rem; */
   }
   
   #contact-places{
-    margin: 25px 0;
+    padding: 25px 0;
     display: flex;
     justify-content: space-around;
     font-size: 1.2em;
