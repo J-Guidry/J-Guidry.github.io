@@ -1,6 +1,5 @@
 .main-projects {
   margin-top: 120px;
-
   min-height: 100vh;
 }
 
@@ -33,9 +32,8 @@
   }
   
   .project-tile{
-    border: 1px solid black;
+    border: none;
     border-radius: 15px;
-    /* position:relative; */
   }
   
   .project-tile img{
