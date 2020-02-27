@@ -25,6 +25,7 @@ body{
 .text-center input {
   margin: auto;
   position: relative;
+  width: 35%;
   margin-top: 25px;
   margin-right: 5px;
   border-radius: 20px;
@@ -70,3 +71,10 @@ body{
   text-align: center;
 }
 
+@media screen and (max-width: 850px) {
+  #input {
+    width: 80%;
+    margin-right: 10px;
+    margin-bottom: 10px;
+  }
+}

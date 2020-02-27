@@ -24,10 +24,10 @@
       </nav>
   </header>
   <main>
-<header class="writeup-header">
-    <h2>Writeup</h2>
-</header>
-   <section class="writeup">
+    <header class="writeup-header">
+        <h2>Writeup</h2>
+    </header>
+    <section class="writeup">
     <p>The recipe box is done with the React JavaScript library. It can be used to store recipes. 
         One box holds the recipe name, the second holds the recipe ingredients, and the last holds the recipe instructions.
         This uses the localstorage API to persist data in your browser so it is not lost. Since this is a react app, it uses Webpack for bundling and Babel for transpilation</p>
@@ -62,30 +62,32 @@
     <p>Since the details array has been filled, it will display the data in the ingredients and instructions boxes using the map method.
         It uses a ternary operator to make sure there is data at all. The delete and edit buttons are also dispalyed here which also uses a ternary to check for data existence.
     </p>
-   </section>
+    </section>
 </main>
 <footer>
-        <section id="contact-places">
-            <div id="github">
-              <a class="fa fa-github" 
-                 href="https://github.com/J-Guidry"
-                 id="profile-link"
-                 target="_blank" 
-                 aria-hidden="true"        
-                 >Github
-              </a>
+    <section id="contact-places">
+        <div id="github">
+            <a class="fa fa-github" 
+                href="https://github.com/J-Guidry"
+                id="profile-link"
+                target="_blank" 
+                aria-hidden="true"        
+                >
+                <span>Github</span> 
+            </a>
+        </div>
+
+        <div id="linkedin">
+            <a class="fa fa-linkedin"  
+                href="https://www.linkedin.com/in/jhabari-guidry-625775173/"
+                target="_blank"
+                aria-hidden="true"
+                >
+                <span>LinkedIn</span> 
+            </a>
             </div>
-      
-            <div id="linkedin">
-                <a class="fa fa-linkedin"  
-                   href="https://www.linkedin.com/in/jhabari-guidry-625775173/"
-                   target="_blank"
-                   aria-hidden="true"
-                   >LinkedIn
-                </a>
-              </div>
-          </section>
-    </footer>
+        </section>
+</footer>
 </body>
 
 </html>
