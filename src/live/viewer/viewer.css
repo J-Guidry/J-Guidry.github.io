@@ -6,7 +6,8 @@ body{
   }
   
 .main-viewer {
-  min-height: 100%;
+  min-height: 100vh;
+  overflow: hidden;
   padding-bottom: 10px;
 }
 .text-center h1 + a {
@@ -14,7 +15,7 @@ body{
 }
 .text-center h1{
   padding: 1%;
-    margin: 1% auto;
+  margin: 1% auto;
   color: #E6F2EC;
 }
 

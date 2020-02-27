@@ -1,9 +1,12 @@
 #navbar{
     position: fixed;
-    background: lightgray;
+    background: white;
     width: 100%;
     top: 0;
     z-index: 1;
+    -webkit-box-shadow: 9px -4px 34px 4px rgba(0,0,0,0.44);
+    -moz-box-shadow: 9px -4px 34px 4px rgba(0,0,0,0.44);
+    box-shadow: 9px -4px 34px 4px rgba(0,0,0,0.44);
   }
   
   #navbar ul{
