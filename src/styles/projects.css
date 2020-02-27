@@ -57,6 +57,10 @@
   }
 
   @media(max-width: 750px){
+    .projects-header {
+      width: 90%;
+      margin: auto;
+    }
     .projects{
       grid-template-columns: 1fr;
       margin-left: 50px;
@@ -65,13 +69,22 @@
   }
 
   @media(min-width: 1400px)and (max-width: 2080px){
+    .projects-header {
+      width: 80%;
+      margin: auto;
+    }
     .projects{
       margin-left: 250px;
       margin-right: 250px;
      }  
     }
 
-  @media(min-width: 800px)and (max-width: 1400px){
+  @media(min-width: 750px)and (max-width: 1400px){
+    .projects-header {
+      width: 85%;
+      margin: auto;
+    }
+
     .projects{
       margin-left: 100px;
       margin-right: 100px;
