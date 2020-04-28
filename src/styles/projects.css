@@ -34,6 +34,59 @@
   .project-tile{
     border: none;
     border-radius: 15px;
+    transition-duration: 600ms;
+  }
+
+  .project {
+    position: relative;
+    z-index: 0;
+  }
+
+
+  .project-tile:hover .overlay::before {
+    position: absolute;
+    content: "";
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(25, 25, 25, 0.7);
+    z-index: 1;
+    opacity: 1;
+    transition-duration: 500ms;
+
+  }
+
+  .p-links {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    z-index: 2;
+  }
+
+  .p-link {
+    width: 80px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    background: #222;
+    padding: 10px;
+    display: inline-block;
+    font-size: 1.0rem;
+    color: white;
+  }
+
+  .project-tile:hover .p-links {
+    opacity: 1;
+    transition-duration: 600ms;
+  }
+
+  .project a {
+    text-decoration: none;
+    color: unset;
   }
   
   .project-tile img{
@@ -56,7 +109,7 @@
     }
   }
 
-  @media(max-width: 750px){
+  @media(max-width: 900px){
     .projects-header {
       width: 90%;
       margin: auto;
@@ -79,7 +132,7 @@
      }  
     }
 
-  @media(min-width: 750px)and (max-width: 1400px){
+  @media(min-width: 900px)and (max-width: 1400px){
     .projects-header {
       width: 85%;
       margin: auto;
