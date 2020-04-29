@@ -60,6 +60,7 @@
   .p-links {
     position: absolute;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     width: 100%;
@@ -129,8 +130,8 @@
     .projects{
       margin-left: 250px;
       margin-right: 250px;
-     }  
-    }
+    }  
+  }
 
   @media(min-width: 900px)and (max-width: 1400px){
     .projects-header {
@@ -139,7 +140,7 @@
     }
 
     .projects{
-      margin-left: 100px;
-      margin-right: 100px;
-      }  
-    }
+      width: 80%;
+      margin: auto;
+    }  
+  }
