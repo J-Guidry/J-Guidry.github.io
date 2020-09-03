@@ -1,8 +1,11 @@
 footer{
     position: absolute;
-    background: #333;
+    background: #ffffff;
     bottom: 0;
     width: 100%;
+    -webkit-box-shadow: 9px -4px 34px 4px rgba(0,0,0,0.44);
+    -moz-box-shadow: 9px -4px 34px 4px rgba(0,0,0,0.44);
+    box-shadow: 9px -4px 34px 4px rgba(0,0,0,0.44);
   }
   
   #contact-places{
@@ -19,5 +22,6 @@ footer{
 
   footer a {
     text-decoration: none;
+    // color: #333333;
   }
   
