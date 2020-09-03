@@ -18,10 +18,13 @@
   width: 250px;
   margin: 0 auto;
   padding-bottom: 150px;
-  background: lightgrey;
-  padding: 15px;
+  background: #FFFAFA;
+  padding: 20px;
   font-size: 1.2rem;
   border-radius: 5px;
+  -webkit-box-shadow: 1px 0px 16px -4px rgba(0,0,0,0.75);
+  -moz-box-shadow: 1px 0px 16px -4px rgba(0,0,0,0.75);
+  box-shadow: 1px 0px 16px -4px rgba(0,0,0,0.75);
 }
 
 #contact-me h3 {
@@ -34,16 +37,20 @@ form input {
 
 input[type=text] {
   width: 100%;
-  padding: 12px 20px;
+  padding: 12px 10px;
   margin: 8px 0;
   box-sizing: border-box;
 }
 
 input[type=email] {
   width: 100%;
-  padding: 12px 20px;
+  padding: 12px 10px;
   margin: 8px 0;
   box-sizing: border-box;
+}
+
+#message {
+  margin-top: 5px;
 }
 
 #submit{
@@ -72,10 +79,13 @@ input[type=email] {
   color: lightgrey;
 }
 
-// .fa-github::before, .fa-linkedin::before {
-//   color: #333333;
-// }
 
 .fa-github, .fa-linkedin {
   color: #333333;
+}
+
+@media(max-width: 355px) {
+  .main-contact {
+    margin-top: 200px;
+  }
 }
