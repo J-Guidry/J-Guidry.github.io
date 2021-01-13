@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+}
+
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: white;
+  font-family: Helvetica, sans-serif;
+  position: relative;
+  margin: 0;
+}
+
+html {
+  height: 100%;
+  position: relative;
+}
+
+li {
+  list-style-type: none;
+}
+
+h5 {
+  text-align: center;
+}
+
+li a {
+  text-decoration: none;
+  color: black;
+}
+
+ul {
+  padding-left: 0;
+}
+
+/*# sourceMappingURL=/_base.92f2a4dd.css.map */

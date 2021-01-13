@@ -1,0 +1,2 @@
+#navbar{position:fixed;background:#fff;width:100%;top:0;z-index:1;-webkit-box-shadow:9px -4px 34px 4px rgba(0,0,0,.44);-moz-box-shadow:9px -4px 34px 4px rgba(0,0,0,.44);box-shadow:9px -4px 34px 4px rgba(0,0,0,.44)}#navbar ul{text-align:center;padding:10px}#navbar li{display:inline;margin:10px;padding-top:8px}#navbar a{font-size:1.2em;font-weight:600;padding:10px}@media (max-width:700px){#navbar li{display:inline-block}}
+/*# sourceMappingURL=/_navbar.25fbc66f.css.map */

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="/styles.c86c3119.css">
+    <link rel="stylesheet" href="/writeups.0a4e0b7d.css">
+    <title>Portfolio</title>
+    <style>.writeup{
+            margin-bottom: 160px;
+        }</style>
+<script src="/writeups.0a4e0b7d.js"></script></head>
+<body>
+  <header id="navbar">
+      <nav>
+        <ul>
+          <li><a href="/index.html">About</a></li>
+          <li><a href="/projects.html">Projects</a></li>
+          <li><a href="/contact.html">Contact</a></li>
+        </ul>
+      </nav>
+  </header>
+  <main>
+    <header class="writeup-header">
+        <h2>Writeup</h2>
+    </header>
+    <section class="writeup">
+        <p>With the calculator, I first started with implementing a console version of it.
+            Using an object literal, 5 methods were made and four properties. Two methods for assigning a number and the next number. 
+            One method for assigning the operator. One method for performing the operation and a last one for clearing the data. 
+            The first two properties held the number and the next number. The third for the operator. The last one for the result of the calculation.
+        </p>
+        <p>When it came to implementing the rest with the UI,there were two object literals created. 
+                One of them concerned the UI with display and outputing the result as well as clearing the display. 
+                This uses the textContent property drilling down using the read only children property to access the display to either clear or populate it.
+                The other one has event listeners and called methods from the first object literal containing the data and operations and sends data to the UI methods.
+                Using an if else chain, chain operations were implemented. A switch statement is used to support keyboard inputs and not just button clicks.</p>
+        <p>
+            When implementing CSS, CSS grid was used in setting up the rows and columns for the calculator's buttons. A responsive container is used to resize the
+            calculator as needed.
+        </p>
+        <p>
+            To implement operations, an if else chain is used which checks the operator and both number properties. Once the operation is done, the result is assigned to a property which is used
+            by the UI in the other object literals. Frustrations included trying to get chain operations to work and making sure the display worked correctly. 
+
+        </p>
+            <p>Here is the logic that is done which a click happens:</p>
+            <ol>
+            <li>
+                </li><li>Check the class of what was clicked.</li>
+                <li>If a number was clicked or typed, run the select number method.</li>
+                <li>Whether it was clicked or typed, display the number on screen.</li>
+                <li>Depending on which numbers/operator were set, parse the int from string to integer, and then set them. </li>
+                <li>If the first has been set, it will set the next number.</li>
+                <li>Once the user clicks a operator, it will make a check for the number properties using the chain operations method.</li>
+                <li>Depending on conditions, for example, the normal condition of the first number being set, it will display, then set the operator.</li>
+                <li>Other conditions involve which number properties are filled and whether the the result property is filled</li>
+                <li>Once both numbers and an operator is set, clicking or typing the equals, will trigger the calculate function which will perform an operation which is dispalyed.</li>
+                <li>If the escape key or the C button is clicked, all the properties will be cleared.</li>
+            
+        </ol>
+
+    </section>
+</main>
+<footer>
+        <section id="contact-places">
+            <div id="github">
+              <a class="fa fa-github" href="https://github.com/J-Guidry" id="profile-link" target="_blank" aria-hidden="true">Github
+              </a>
+            </div>
+      
+            <div id="linkedin">
+                <a class="fa fa-linkedin" href="https://www.linkedin.com/in/jhabari-guidry-625775173/" target="_blank" aria-hidden="true">LinkedIn
+                </a>
+              </div>
+          </section>
+    </footer>
+</body>
+
+</html>
