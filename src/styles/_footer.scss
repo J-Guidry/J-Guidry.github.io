@@ -1,30 +1,30 @@
-footer{
-    position: absolute;
-    background: #ffffff;
-    bottom: 0;
-    width: 100%;
-    -webkit-box-shadow: 9px -4px 34px 4px rgba(0,0,0,0.44);
-    -moz-box-shadow: 9px -4px 34px 4px rgba(0,0,0,0.44);
-    box-shadow: 9px -4px 34px 4px rgba(0,0,0,0.44);
-  }
-  
-  #contact-places{
-    padding: 25px 0;
-    display: flex;
-    justify-content: space-around;
-    font-size: 1.2em;
-    color: lightgrey;
-  }
-  
-  #contact-places a:visited{
-    color: lightgrey;
-  }
+footer {
+  position: absolute;
+  background: #ffffff;
+  bottom: 0;
+  width: 100%;
+  -webkit-box-shadow: 9px -4px 34px 4px rgba(0, 0, 0, 0.44);
+  -moz-box-shadow: 9px -4px 34px 4px rgba(0, 0, 0, 0.44);
+  box-shadow: 9px -4px 34px 4px rgba(0, 0, 0, 0.44);
+}
 
-  footer a {
-    text-decoration: none;
-  }
+#contact-places {
+  padding: 25px 0;
+  display: flex;
+  justify-content: space-around;
+  font-size: 1.2em;
+  color: black;
+}
 
-  footer .fa-github, footer .fa-linkedin {
-    color: #333333;
-  }
-  
+#contact-places a:visited {
+  color: black;
+}
+
+footer a {
+  text-decoration: none;
+}
+
+footer .fa-github,
+footer .fa-linkedin {
+  color: #333333;
+}

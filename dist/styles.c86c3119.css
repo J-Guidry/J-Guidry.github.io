@@ -103,7 +103,7 @@ ul {
   width: 250px;
   margin: 0 auto;
   padding-bottom: 150px;
-  background: #FFFAFA;
+  background: #fffafa;
   padding: 20px;
   font-size: 1.2rem;
   border-radius: 5px;
@@ -151,18 +151,6 @@ input[type=email] {
   display: none;
 }
 
-#contact-places {
-  padding: 25px 0;
-  display: flex;
-  justify-content: space-around;
-  font-size: 1.2em;
-  color: lightgrey;
-}
-
-#contact-places a:visited {
-  color: lightgrey;
-}
-
 @media (max-width: 355px) {
   .main-contact {
     margin-top: 200px;
@@ -183,18 +171,19 @@ footer {
   display: flex;
   justify-content: space-around;
   font-size: 1.2em;
-  color: lightgrey;
+  color: black;
 }
 
 #contact-places a:visited {
-  color: lightgrey;
+  color: black;
 }
 
 footer a {
   text-decoration: none;
 }
 
-footer .fa-github, footer .fa-linkedin {
+footer .fa-github,
+footer .fa-linkedin {
   color: #333333;
 }
 

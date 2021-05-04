@@ -3,144 +3,159 @@
   min-height: 100vh;
 }
 
-.projects-header{
-    text-align: center;
-  }
-
-.projects-header h1{
-    font-weight: 800;
-    font-size: 2.0em;
-    margin-bottom: 10px;
+.projects-header {
+  text-align: center;
 }
 
-.projects-header p{
-    font-size: 1.4rem;
-}
-  
-.projects{
-    padding-bottom: 150px;
-    display: grid;
-    grid-template-columns:1fr 1fr 1fr;
-    grid-gap: 5px;
+.projects-header h1 {
+  font-weight: 800;
+  font-size: 2em;
+  margin-bottom: 10px;
 }
 
-.project-title{
-    padding: 10px 0;
-    border-bottom: 1px solid black;
-    font-size: 1.2em;
-    font-weight: 600;
+.projects-header p {
+  font-size: 1.4rem;
+  margin: auto;
+}
+
+.projects {
+  padding-bottom: 150px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 5px;
+}
+
+.project-title {
+  padding: 10px 0;
+  border-bottom: 1px solid black;
+  font-size: 1.2em;
+  font-weight: 600;
+}
+
+.project-tile {
+  border: none;
+  border-radius: 15px;
+  transition-duration: 600ms;
+}
+
+.project {
+  position: relative;
+  z-index: 0;
+}
+
+.project-tile:hover .overlay::before {
+  position: absolute;
+  content: "";
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(25, 25, 25, 0.7);
+  z-index: 1;
+  opacity: 1;
+  transition-duration: 500ms;
+}
+
+.p-links {
+  position: absolute;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  z-index: 2;
+}
+
+.p-link {
+  width: 80px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  background: #222;
+  padding: 10px;
+  display: inline-block;
+  font-size: 1rem;
+  color: white;
+}
+
+.project-tile:hover .p-links {
+  opacity: 1;
+  transition-duration: 600ms;
+}
+
+.project a {
+  text-decoration: none;
+  color: unset;
+}
+
+.project-tile img {
+  width: 100%;
+}
+
+.made {
+  font-size: 8px;
+}
+
+.made-in {
+  font-size: 12px;
+}
+
+.project-info {
+  border-top: 1px solid black;
+  width: 100%;
+}
+
+.project-info p {
+  margin-left: 20px;
+  font-size: 1.2rem;
+}
+
+@media (max-width: 360px) {
+  .main-projects {
+    margin-top: 220px;
   }
-  
-  .project-tile{
-    border: none;
-    border-radius: 15px;
-    transition-duration: 600ms;
+}
+
+@media (max-width: 900px) {
+  .projects-header {
+    width: 90%;
+    margin: auto;
+  }
+  .projects {
+    grid-template-columns: 1fr;
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+}
+
+@media (min-width: 900px) and (max-width: 1400px) {
+  .projects-header {
+    width: 85%;
+    margin: auto;
   }
 
-  .project {
-    position: relative;
-    z-index: 0;
+  .projects-header p {
+    width: 90%;
   }
 
+  .projects {
+    width: 70%;
+    margin: auto;
+  }
+}
 
-  .project-tile:hover .overlay::before {
-    position: absolute;
-    content: "";
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    background-color: rgba(25, 25, 25, 0.7);
-    z-index: 1;
-    opacity: 1;
-    transition-duration: 500ms;
-
+@media (min-width: 1400px) {
+  .projects-header {
+    width: 80%;
+    margin: auto;
   }
 
-  .p-links {
-    position: absolute;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: 100%;
-    opacity: 0;
-    z-index: 2;
+  .projects-header p {
+    width: 80%;
   }
-
-  .p-link {
-    width: 80px;
-    margin-right: 10px;
-    margin-bottom: 10px;
-    background: #222;
-    padding: 10px;
-    display: inline-block;
-    font-size: 1.0rem;
-    color: white;
+  .projects {
+    margin-left: 250px;
+    margin-right: 250px;
   }
-
-  .project-tile:hover .p-links {
-    opacity: 1;
-    transition-duration: 600ms;
-  }
-
-  .project a {
-    text-decoration: none;
-    color: unset;
-  }
-  
-  .project-tile img{
-    width: 100%;
-  }
-
-  .project-info{
-    border-top: 1px solid black;
-    width: 100%;
-  }
-  
-  .project-info p {
-    margin-left: 20px;
-    font-size: 1.2rem;
-  }
-
-  @media(max-width: 350px){
-    main{
-      margin-top: 180px;
-    }
-  }
-
-  @media(max-width: 900px){
-    .projects-header {
-      width: 90%;
-      margin: auto;
-    }
-    .projects{
-      grid-template-columns: 1fr;
-      margin-left: 50px;
-      margin-right: 50px;
-    }
-  }
-
-  @media(min-width: 1400px)and (max-width: 2080px){
-    .projects-header {
-      width: 80%;
-      margin: auto;
-    }
-    .projects{
-      margin-left: 250px;
-      margin-right: 250px;
-    }  
-  }
-
-  @media(min-width: 900px)and (max-width: 1400px){
-    .projects-header {
-      width: 85%;
-      margin: auto;
-    }
-
-    .projects{
-      width: 70%;
-      margin: auto;
-    }  
-  }
+}
