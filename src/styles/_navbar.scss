@@ -1,44 +1,47 @@
-#navbar{
-    position: fixed;
-    background: white;
-    width: 100%;
-    top: 0;
-    z-index: 1;
-    -webkit-box-shadow: 9px -4px 34px 4px rgba(0,0,0,0.44);
-    -moz-box-shadow: 9px -4px 34px 4px rgba(0,0,0,0.44);
-    box-shadow: 9px -4px 34px 4px rgba(0,0,0,0.44);
-  }
-  
-  #navbar ul{
-    text-align: center;
-    padding: 10px;
-  }
-  
-  #navbar li {
-    display: inline;
-    margin: 10px;
-    padding-top: 8px;
-    /*margin-bottom: 15px;*/
-  }
-  
-  #navbar a{
-    font-size: 1.2em;
-    font-weight: 600;
-    padding: 10px;
+#navbar {
+  position: fixed;
+  background: white;
+  width: 100%;
+  top: 0;
+  z-index: 1;
+  -webkit-box-shadow: 9px -4px 34px 4px rgba(0, 0, 0, 0.44);
+  -moz-box-shadow: 9px -4px 34px 4px rgba(0, 0, 0, 0.44);
+  box-shadow: 9px -4px 34px 4px rgba(0, 0, 0, 0.44);
+  height: 45px;
+}
+
+#navbar ul {
+  text-align: center;
+}
+
+#navbar li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+#navbar a {
+  font-size: 1rem;
+  font-weight: 300;
+}
+
+@media (max-width: 700px) {
+  #navbar ul {
+    display: flex;
+    flex-direction: column;
   }
 
-  @media(max-width: 700px){
-    #navbar li {
-      display: inline-block;
-    }
-
-    #navbar {
-      height: 90px;
-    }
+  #navbar ul li {
+    margin-bottom: 10px;
+    // padding-bottom: 10px;
   }
 
-  @media(max-width: 355px) {
-    #navbar {
-      height: 150px;
-    }
+  #navbar {
+    height: 110px;
   }
+}
+
+@media (max-width: 355px) {
+  #navbar {
+    height: 150px;
+  }
+}
