@@ -1,75 +1,276 @@
 <!DOCTYPE html>
-<html lang="en">
+<!--
+	Miniport by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <link rel="stylesheet" type="text/css" href="./styles/banner.css" />
-    <link rel="stylesheet" type="text/css" href="./styles/styles.scss" />
+    <title>Miniport by HTML5 UP</title>
+    <meta charset="utf-8" />
     <meta
-      name="description"
-      content="This is Jhabari Guidry's web developer portfolio"
+      name="viewport"
+      content="width=device-width, initial-scale=1, user-scalable=no"
     />
-    <meta
-      name="keywords"
-      content="jhabari guidry, portfolio, web developer,
-     html, css, javascript, react"
-    />
-    <meta name="author" content="Jhabari Guidry" />
-    <title>Portfolio</title>
+    <link rel="stylesheet" href="assets/css/main.css" />
   </head>
-  <body>
-    <header id="navbar">
-      <nav>
-        <ul>
-          <li><a href="/">About</a></li>
-          <li><a href="/projects/">Projects</a></li>
-          <li><a href="/contact/">Contact</a></li>
-        </ul>
-      </nav>
-    </header>
-    <main>
-      <section id="welcome-section">
-        <h1>Hello</h1>
-        <p>I am Jhabari Guidry, Web Developer</p>
-        <p>
-          I like to build web sites. Whether you are a small business or an
-          individual, I can built for you a website or update an existing one.
-          Have a look around to see what we can build together. How can I assist
-          you? My skills include
-        </p>
-        <section id="skills">
-          <span>HTML</span><span>CSS</span><span>JavaScript</span>
-          <span>Bootstrap</span><span>React</span> <span>Git</span
-          ><span>Webpack</span><span>JSON</span><span>Sass</span>
-        </section>
-      </section>
-    </main>
-    <footer>
-      <section id="contact-places">
-        <div id="github">
-          <a
-            class="fa fa-github"
-            href="https://github.com/J-Guidry"
-            id="profile-link"
-            target="_blank"
-            aria-hidden="true"
-          >
-            <span>Github</span>
-          </a>
-        </div>
+  <body class="is-preload">
+    <!-- Nav -->
+    <nav id="nav">
+      <ul class="container">
+        <li><a href="#top">Top</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
 
-        <div id="linkedin">
-          <a
-            class="fa fa-linkedin"
-            href="https://www.linkedin.com/in/jhabari-guidry-625775173/"
-            target="_blank"
-            aria-hidden="true"
-          >
-            <span>LinkedIn</span>
-          </a>
+    <!-- Home -->
+    <article id="top" class="wrapper style1">
+      <div class="container">
+        <div class="row">
+          <div class="col-8 col-7-large col-12-medium">
+            <header>
+              <h1>
+                Hello. I'm <strong>Jhabari Guidry</strong>, Your Next Web Developer.
+              </h1>
+            </header>
+            <p>
+              I like to build web sites. Whether you are a small business or an
+              individual, I can build for you a website or update an existing
+              one. Have a look around to see what we can build together. How can
+              I assist you? 
+            </p>
+          </div>
         </div>
-      </section>
-    </footer>
+      </div>
+    </article>
+
+    <!-- Portfolio -->
+    <article id="portfolio" class="wrapper style3">
+      <div class="container">
+        <header>
+          <h2>Here are the sites I made recently.</h2>
+        </header>
+        <section class="projects">
+          <div class="project-tile">
+            <h5 class="project-title">Agency</h5>
+            <div class="project">
+              <div class="overlay"></div>
+              <div class="p-links">
+                <span class="p-link">
+                  <span class="made">Made in</span>
+                  <span class="made-in">WordPress</span>
+                </span>
+                <span class="p-link">
+                  <a href="https://mock-agency.herokuapp.com/">
+                    <span><i class="fa fa-globe"></i></span>
+                    Live
+                  </a>
+                </span>
+              </div>
+              <div class="project-img">
+                <img src="./images/agency.png" alt="Agency screenshot" />
+              </div>
+            </div>
+          </div>
+  
+          <div class="project-tile">
+            <h5 class="project-title">Landing Page</h5>
+            <div class="project">
+              <div class="overlay"></div>
+              <div class="p-links">
+                <span class="p-link">
+                  <a href="https://github.com/J-Guidry/startup-vanilla-colorlib">
+                    <span><i class="fa fa-github"></i></span>
+                    Code
+                  </a>
+                </span>
+                <span class="p-link">
+                  <a href="https://landing-jg.netlify.com">
+                    <span><i class="fa fa-globe"></i></span>
+                    Live
+                  </a>
+                </span>
+              </div>
+              <div class="project-img">
+                <img src="./images/landing.png" alt="Landing Page screenshot" />
+              </div>
+            </div>
+          </div>
+          <div class="project-tile">
+            <h5 class="project-title">Ecommerce Shop</h5>
+            <div class="project">
+              <div class="overlay"></div>
+              <div class="p-links">
+                <span class="p-link">
+                  <a href="https://github.com/J-Guidry/eiser-colorlib-recoded">
+                    <span><i class="fa fa-github"></i></span>
+                    Code
+                  </a>
+                </span>
+                <span class="p-link">
+                  <a href="https://shop-jg.netlify.com/">
+                    <span><i class="fa fa-globe"></i></span>
+                    Live
+                  </a>
+                </span>
+              </div>
+              <div class="project-img">
+                <img src="./images/shop.png" alt="Ecommerce screenshot" />
+              </div>
+            </div>
+          </div>
+          <div class="project-tile">
+            <h5 class="project-title">Restaurant</h5>
+            <div class="project">
+              <div class="overlay"></div>
+              <div class="p-links">
+                <span class="p-link">
+                  <a href="https://github.com/J-Guidry/luto-colorlib-recoded">
+                    <span><i class="fa fa-github"></i></span>
+                    Code
+                  </a>
+                </span>
+                <span class="p-link">
+                  <a href="https://restaurant-jg.netlify.com/">
+                    <span><i class="fa fa-globe"></i></span>
+                    Live
+                  </a>
+                </span>
+              </div>
+              <div class="project-img">
+                <img src="./images/restaurant.png" alt="restaurant screenshot" />
+              </div>
+            </div>
+          </div>
+          <div class="project-tile">
+            <h5 class="project-title">Black Friday Sale E-mail</h5>
+            <div class="project">
+              <div class="overlay"></div>
+              <div class="p-links">
+                <span class="p-link">
+                  <a href="https://github.com/J-Guidry/promotional-email">
+                    <span><i class="fa fa-github"></i></span>
+                    Code
+                  </a>
+                </span>
+                <span class="p-link">
+                  <a href="https://promo-email-jg.netlify.com/">
+                    <span><i class="fa fa-globe"></i></span>
+                    Live
+                  </a>
+                </span>
+              </div>
+              <div class="project-img">
+                <img
+                  src="./images/promo-email.png"
+                  alt="promo email screenshot"
+                />
+              </div>
+            </div>
+          </div>
+        </section>
+        <footer>
+          <a href="#contact" class="button large scrolly"
+            >Get in touch with me</a
+          >
+        </footer>
+      </div>
+    </article>
+
+    <!-- Contact -->
+    <article id="contact" class="wrapper style4">
+      <div class="container medium">
+        <header>
+          <h2>Contact me here</h2>
+          <p>I accept freelance work.</p>
+        </header>
+        <div class="row">
+          <div class="col-12">
+            <form method="post" action="#">
+              <div class="row">
+                <div class="col-6 col-12-small">
+                  <input type="text" name="name" id="name" placeholder="Name" />
+                </div>
+                <div class="col-6 col-12-small">
+                  <input
+                    type="text"
+                    name="email"
+                    id="email"
+                    placeholder="Email"
+                  />
+                </div>
+                <div class="col-12">
+                  <input
+                    type="text"
+                    name="subject"
+                    id="subject"
+                    placeholder="Subject"
+                  />
+                </div>
+                <div class="col-12">
+                  <textarea
+                    name="message"
+                    id="message"
+                    placeholder="Message"
+                  ></textarea>
+                </div>
+                <div class="col-12">
+                  <ul class="actions">
+                    <li><input type="submit" value="Send Message" /></li>
+                    <li>
+                      <input type="reset" value="Clear Form" class="alt" />
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </form>
+          </div>
+          <div class="col-12">
+            <hr />
+            <h3>Find me on ...</h3>
+            <ul class="social">
+              <li>
+                <a href="https://twitter.com/JhabariG" class="icon brands fa-twitter"
+                  ><span class="label">Twitter</span></a
+                >
+              </li>
+
+              <li>
+                <a href="https://www.linkedin.com/in/jhabari-guidry/" class="icon brands fa-linkedin-in"
+                  ><span class="label">LinkedIn</span></a
+                >
+              </li>
+              <li>
+                <a href="#" class="icon brands fa-angellist"
+                  ><span class="label">Angellist</span></a
+                >
+              </li>
+
+              <li>
+                <a href="#" class="icon brands fa-github"
+                  ><span class="label">Github</span></a
+                >
+              </li>
+            </ul>
+            <hr />
+          </div>
+        </div>
+        <footer>
+          <ul id="copyright">
+            <li>&copy; Jhabari Guidry. All rights reserved.</li>
+            <li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+          </ul>
+        </footer>
+      </div>
+    </article>
+
+    <!-- Scripts -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/jquery.scrolly.min.js"></script>
+    <script src="assets/js/browser.min.js"></script>
+    <script src="assets/js/breakpoints.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/main.js"></script>
   </body>
 </html>

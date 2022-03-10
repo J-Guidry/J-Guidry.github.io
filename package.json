@@ -13,15 +13,9 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/J-Guidry/J-Guidry.github.io/issues"
-  },
-  "homepage": "https://github.com/J-Guidry/J-Guidry.github.io#readme",
+  "homepage": "https://j-guidry.netlify.app",
   "devDependencies": {
-    "bootstrap": "^4.6.1",
-    "parcel-bundler": "^1.12.5",
-    "postcss-modules": "^1.4.1",
-    "sass": "^1.49.9"
+
   },
   "dependencies": {
     "font-awesome": "^4.7.0"
