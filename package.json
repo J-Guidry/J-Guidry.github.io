@@ -2,10 +2,6 @@
   "name": "Portfolio",
   "version": "1.0.0",
   "description": "My Portfolio of works and where you can contact me.",
-  "scripts": {
-    "dev": "parcel ./src/*.html",
-    "build": "parcel build ./src/*.html"
-  },
   "repository": {
     "type": "git"
   },
@@ -13,9 +9,6 @@
   "author": "",
   "license": "ISC",
   "homepage": "https://j-guidry.netlify.app",
-  "devDependencies": {
-
-  },
   "dependencies": {
     "font-awesome": "^4.7.0"
   }
